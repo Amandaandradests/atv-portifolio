@@ -101,7 +101,7 @@ section.post {
 }
 section.post h2 {
     font-weight:normal;
-    margin: 2vw 0 1.5vw 0;
+    margin: 0 0 2vw 0;
 }
 section.post ul {
     display:flex;
