@@ -23,6 +23,9 @@ html body a{
     text-decoration: none;
     color: #21243d;
 }
+main {
+    margin: 0vw 15vw 0vw 15vw;  /*espaçamento do titulo*/
+}
 
 /*================
 Formatação do topo
@@ -45,11 +48,9 @@ header nav ul li.atual a{
 }
 
 /*================
-Formatação do conteúdo
+Formatação do works
 ==================*/
-main.works {
-    margin: 0vw 15vw 0vw 15vw;  /*espaçamento do titulo*/
-}
+
 main.works h1 {
     font-weight:normal;  /*remove o negrito da fonte*/
     margin: 0 0 2vw 0;   /*espaçamento do titulo*/
@@ -72,6 +73,51 @@ main.works section p span {
     padding: 2px 7px 2px 7px ;  
     font-weight: bold;  /*negrito na fonte*/
 }
+
+/*================
+Formatação do conteúdo home page
+==================*/
+section.banner {
+    display: flex ;
+    margin: 7vw 0 3vw 0;
+}
+section.banner h1 {
+  font-size: 2rem;
+}
+section.banner p{
+    margin: 3vw 3vw 3vw 0vw;
+    font-size: larger;
+}
+section.banner button {
+    background: #ff6464;
+    color: white;
+    font-size: 2rem;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+} 
+section.post {
+    background:#edf7fa;
+    padding: 3vw 5px 3vw 5px;
+}
+section.post h2 {
+    font-weight:normal;
+    margin: 2vw 0 1.5vw 0;
+}
+section.post ul {
+    display:flex;
+}
+section.post ul li {
+    background: white ;
+    padding: 15px 10px 15px 10px;
+    margin: 0 2vw 0 0;
+}
+section.post ul li:last-child {
+    margin: 0 ;
+}
+section.post ul li p {
+    margin: 1.5vw 0 1.5vw 0;
+}
+
 /*================
 Formatação do rodapé
 ==================*/
@@ -81,8 +127,8 @@ footer {
 }
 
 footer nav ul {
-display: flex;
-justify-content: center; /*alinha os icones ao centro*/
+    display: flex;
+    justify-content: center; /*alinha os icones ao centro*/
 }
 footer nav ul li a {
     padding: 7px;
