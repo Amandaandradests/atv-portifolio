@@ -167,7 +167,7 @@ Formatação do rodapé
 ==================*/
 footer {
     text-align: center; /*centraliza o texto do rodapé*/
-    padding: 0 0 4vw 0;
+    padding: 0 0 5vw 0;
 }
 
 footer nav ul {
