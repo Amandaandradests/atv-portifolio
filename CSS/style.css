@@ -168,11 +168,13 @@ Formatação do rodapé
 footer {
     text-align: center; /*centraliza o texto do rodapé*/
     padding: 0 0 5vw 0;
+    font-size: 1rem;
 }
 
 footer nav ul {
     display: flex;
     justify-content: center; /*alinha os icones ao centro*/
+    font-size: 5rem;
 }
 footer nav ul li a {
     padding: 7px;
